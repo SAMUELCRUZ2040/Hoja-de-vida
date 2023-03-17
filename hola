@@ -1,0 +1,181 @@
+<section id="introduccion">
+    <div class="row introduccion">
+        <div class="col-3 foreword">
+            <!-- logo-->
+
+            <div class="row logo">
+                <div class="col content-logo pb-3 pt-3">
+                    <i class="fa-solid fa-gear me-3"></i>
+                    <h2 class="pt-3">SPECTRUM</h2>
+                </div>
+            </div>
+            <!-- contenido introduccion -->
+            <div class="row container content-introduccion">
+                <div class="col-3 mb-5 tittle-principal p-0 tittle-principal">
+                    <h1 class="text-white">DESIGNED</h1>
+                    <h1 class="text-white">& BUILDING</h1>
+
+                </div>
+                <div class="col-3 mb-5 description-mini">
+                    <h3>MODERN ENERGY EFFICIENT HOUSRS FRIN 150 SQ. M.</h3>
+                </div>
+                <div class="col-3 mb-5 p-0 button">
+                    <button class="mb-2 mt-2 button-about" type="submit">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    CONTACT US
+                                </button>
+                </div>
+                <div class="col-3 rotador">
+                    <div class="container-rotador">
+                        <button type="submit" class="me-4"><i class="fa-solid fa-arrow-left"></i></button>
+                        <button type="submit" class=""><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-9 navbar-images">
+            <div class="row container-navbar d-flex flex-column mb-3">
+                <div class="col-7 p-0 bg-warning container-img">
+
+                </div>
+                <div class="col-7 container-description">
+                    <div class="row content-description">
+                        <div class="col-6  referencia-principal">
+                            <h1 class="ms-5 me-5">54+</h1>
+                            <H1>WORKS</H1>
+                        </div>
+                        <div class="col-2 referencia">
+                            <p>257 duffy st</p>
+                        </div>
+                        <div class="col-2 referencia">
+                            <p>2000 SQ. M.</p>
+                        </div>
+                        <div class="col-2 referencia">
+                            <p>$ 240.000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<div class="col-6 contenido-izquierda">
+    <div class="row contenedor-izquierda gy-5 d-flex flex-column">
+        <div class="col-4 align-self-center">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quos corrupti aliquid aliquam tempora, id laborum exercitationem! Excepturi, repellendus laboriosam? Error praesentium deleniti natus. Fugiat sunt rem nesciunt molestiae similique ea tempora,
+                delectus explicabo ullam facilis nisi a magni laudantium, assumenda est voluptatum alias quaerat repellendus voluptatem aut labore maxime?
+            </p>
+        </div>
+        <div class="col-4 align-self-end">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quos corrupti aliquid aliquam tempora, id laborum exercitationem! Excepturi, repellendus laboriosam? Error praesentium deleniti natus. Fugiat sunt rem nesciunt molestiae similique ea tempora,
+                delectus explicabo ullam facilis nisi a magni laudantium, assumenda est voluptatum alias quaerat repellendus voluptatem aut labore maxime?
+            </p>
+        </div>
+        <div class="col-4 align-self-center ">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quos corrupti aliquid aliquam tempora, id laborum exercitationem! Excepturi, repellendus laboriosam? Error praesentium deleniti natus. Fugiat sunt rem nesciunt molestiae similique ea tempora,
+                delectus explicabo ullam facilis nisi a magni laudantium, assumenda est voluptatum alias quaerat repellendus voluptatem aut labore maxime?
+            </p>
+        </div>
+    </div>
+</div>
+<div class="col-6 contenido-derecha">
+    <div class="row contenedor-derecha gy-5 d-flex flex-column">
+        <div class="col-4 ">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quos corrupti aliquid aliquam tempora, id laborum exercitationem! Excepturi, repellendus laboriosam? Error praesentium deleniti natus. Fugiat sunt rem nesciunt molestiae similique ea tempora,
+                delectus explicabo ullam facilis nisi a magni laudantium, assumenda est voluptatum alias quaerat repellendus voluptatem aut labore maxime?
+            </p>
+        </div>
+        <div class="col-4 align-self-end">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quos corrupti aliquid aliquam tempora, id laborum exercitationem! Excepturi, repellendus laboriosam? Error praesentium deleniti natus. Fugiat sunt rem nesciunt molestiae similique ea tempora,
+                delectus explicabo ullam facilis nisi a magni laudantium, assumenda est voluptatum alias quaerat repellendus voluptatem aut labore maxime?
+            </p>
+        </div>
+        <div class="col-4">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quos corrupti aliquid aliquam tempora, id laborum exercitationem! Excepturi, repellendus laboriosam? Error praesentium deleniti natus. Fugiat sunt rem nesciunt molestiae similique ea tempora,
+                delectus explicabo ullam facilis nisi a magni laudantium, assumenda est voluptatum alias quaerat repellendus voluptatem aut labore maxime?
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<div class="contenedor-cards me-5">
+    <div class="card mb-5">
+        <div class="image-card">
+            <img src="https://static-prod-asset.fincaraiz.com.co/site/fincaraiz_service/media/product/featured/cbb036e7-8c4b-463f-a6fc-6d68047784e0/opt/2022120617432860625.png" alt="">
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, rem nam! Eveniet?</p>
+        <hr>
+        <div class="contenedor-redireccion">
+            <a href="#" class="btn bt,-primary">te intera esa</a>
+            <a href="#" class="btn btn-success">mas aqui</a>
+        </div>
+        <div class="card mb-5">
+            <img src="https://static-prod-asset.fincaraiz.com.co/site/fincaraiz_service/media/product/featured/cbb036e7-8c4b-463f-a6fc-6d68047784e0/opt/2022120617432860625.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, rem nam! Eveniet?</p>
+            <hr>
+            <div class="contenedor-redireccion">
+                <a href="#" class="btn bt,-primary">te intera esa</a>
+                <a href="#" class="btn btn-success">mas aqui</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="contenedor-cards me-5">
+    <div class="card mb-5">
+        <img src="https://static-prod-asset.fincaraiz.com.co/site/fincaraiz_service/media/product/featured/cbb036e7-8c4b-463f-a6fc-6d68047784e0/opt/2022120617432860625.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, rem nam! Eveniet?</p>
+        <hr>
+        <div class="contenedor-redireccion">
+            <a href="#" class="btn bt,-primary">te intera esa</a>
+            <a href="#" class="btn btn-success">mas aqui</a>
+        </div>
+        <div class="card mb-5">
+            <img src="https://static-prod-asset.fincaraiz.com.co/site/fincaraiz_service/media/product/featured/cbb036e7-8c4b-463f-a6fc-6d68047784e0/opt/2022120617432860625.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, rem nam! Eveniet?</p>
+            <hr>
+            <div class="contenedor-redireccion">
+                <a href="#" class="btn bt,-primary">te intera esa</a>
+                <a href="#" class="btn btn-success">mas aqui</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="contenedor-cards me-5">
+    <div class="card mb-5">
+        <img src="https://static-prod-asset.fincaraiz.com.co/site/fincaraiz_service/media/product/featured/cbb036e7-8c4b-463f-a6fc-6d68047784e0/opt/2022120617432860625.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, rem nam! Eveniet?</p>
+        <hr>
+        <div class="contenedor-redireccion">
+            <a href="#" class="btn bt,-primary">te intera esa</a>
+            <a href="#" class="btn btn-success">mas aqui</a>
+        </div>
+        <div class="card mb-5">
+            <img src="https://static-prod-asset.fincaraiz.com.co/site/fincaraiz_service/media/product/featured/cbb036e7-8c4b-463f-a6fc-6d68047784e0/opt/2022120617432860625.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, rem nam! Eveniet?</p>
+            <hr>
+            <div class="contenedor-redireccion">
+                <a href="#" class="btn bt,-primary">te intera esa</a>
+                <a href="#" class="btn btn-success">mas aqui</a>
+            </div>
+        </div>
+    </div>
+</div>

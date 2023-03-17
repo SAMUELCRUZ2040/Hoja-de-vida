@@ -1,0 +1,221 @@
+/* barraNavegacion (navbar) */
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+header #barraNavegacion {
+    max-width: 100%;
+    height: 6.8em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #1b1e34;
+}
+
+header nav {
+    padding: 20px 460px;
+}
+
+header a {
+    font-size: 19px;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    transition: 1s;
+}
+
+header button {
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: #1b1e34;
+    border: rgb(148, 148, 34) solid 3px;
+}
+
+header button {
+    position: relative;
+    left: 600px;
+    bottom: 30px;
+    padding: 10px 30px;
+}
+
+header button:hover {
+    margin-top: -6px;
+    transition: 0.55s;
+    background: #2c2e43;
+}
+
+header a::before {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background-color: rgb(148, 148, 34);
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition: 0.4s ease-out;
+}
+
+header a:hover::before {
+    width: 100%;
+}
+
+header a:hover {
+    transition: all 4s;
+    color: white;
+    top: -2px;
+}
+
+
+/* lotties.js (libreria) */
+
+.escritorio {
+    position: relative;
+    margin-left: 1250px;
+    margin-top: -930px;
+}
+
+.escritorio img {
+    width: 680px;
+    height: 900px;
+    margin-left: -100px;
+}
+
+
+/* Fondo header particulas*/
+
+#cont {
+    width: 5000px;
+}
+
+.particles2 {
+    box-sizing: border-box;
+    width: 2200px;
+    height: 55em;
+    background: radial-gradient(circle closest-side at 70% 40%, rgba(44, 46, 66, 0.87)-20%, rgba(44, 46, 66, 0.966) 80%, rgb(44, 46, 66, 255));
+}
+
+#particles_Hexagon-js {
+    box-sizing: border-box;
+    width: 2019px;
+    height: 57em;
+}
+
+
+/* Transicion Nombre  box*/
+
+.box {
+    margin-top: 0;
+    position: relative;
+    width: 240px;
+    height: 40px;
+    background-color: #1b1e34;
+    border-radius: 20px;
+    top: 20px;
+    margin-left: 215px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    z-index: 2;
+}
+
+.box::after {
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-image: conic-gradient(transparent, transparent, transparent, rgb(148, 148, 34));
+    animation: animatest 2s linear infinite;
+    animation-delay: -1s;
+}
+
+.box::before {
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-image: conic-gradient(transparent, transparent, transparent, rgb(197, 190, 190));
+    animation: animatest 2s linear infinite;
+}
+
+.box span {
+    position: absolute;
+    inset: 3px;
+    border-radius: 16px;
+    background: #1b1e34;
+    z-index: 1;
+}
+
+.box h3 {
+    list-style: none;
+    position: relative;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: -10px;
+}
+
+.color_A {
+    color: rgb(148, 148, 34);
+    margin-left: -30px;
+    margin-top: -17px;
+}
+
+.color_B {
+    color: #ffffff;
+    margin-top: -17px;
+    margin-left: -6px;
+}
+
+@keyframes animatest {
+    to {
+        transform: rotate(0deg);
+    }
+    from {
+        transform: rotate(360deg);
+    }
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rotador {
+    margin-top: 40vh;
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+    position: relative;
+    animation: rotador 4s linear infinite;
+}
+
+.rotador i {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    font-size: 30px;
+    color: #50a8a1;
+    filter: drop-shadow( 20px 10px 5px #000000);
+}
+
+@keyframes rotador {
+    0% {
+        transform: translate(0%, 0%) rotate(360deg);
+    }
+    100% {
+        transform: translate(0%, 0%) rotate(0deg);
+    }
+}
